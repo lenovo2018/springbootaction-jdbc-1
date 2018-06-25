@@ -1,0 +1,185 @@
+2018-04-09 17:49:42.861  INFO 1116 --- [main] c.e.d.SpringbootactionFirst3Application  : Starting SpringbootactionFirst3Application on LAPTOP-0TUN6MS3 with PID 1116 (G:\eclipse\wprkspace\springbootaction-first-3\target\classes started by lenovo in G:\eclipse\wprkspace\springbootaction-first-3)
+2018-04-09 17:49:42.892  INFO 1116 --- [main] c.e.d.SpringbootactionFirst3Application  : No active profile set, falling back to default profiles: default
+2018-04-09 17:49:42.974  INFO 1116 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2141a12: startup date [Mon Apr 09 17:49:42 CST 2018]; root of context hierarchy
+2018-04-09 17:49:44.700  INFO 1116 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e8d13e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-04-09 17:49:45.236  INFO 1116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2018-04-09 17:49:45.283  INFO 1116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-09 17:49:45.283  INFO 1116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-09 17:49:45.290  INFO 1116 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_162\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_162/bin/server;C:/Program Files/Java/jre1.8.0_162/bin;C:/Program Files/Java/jre1.8.0_162/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;D:\apache\apache-maven-3.5.2\bin;G:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;C:\Users\lenovo\Desktop;;.]
+2018-04-09 17:49:45.494  INFO 1116 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-09 17:49:45.495  INFO 1116 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2521 ms
+2018-04-09 17:49:45.829  INFO 1116 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-09 17:49:45.846  INFO 1116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-09 17:49:45.846  INFO 1116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-09 17:49:45.847  INFO 1116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-09 17:49:45.847  INFO 1116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-09 17:49:46.125  INFO 1116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-04-09 17:49:46.414  INFO 1116 --- [main] jdbc.connection                          : 1. Connection opened
+2018-04-09 17:49:46.414  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.new Connection returned 
+2018-04-09 17:49:46.417  INFO 1116 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2018-04-09 17:49:46.418  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.419  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.420  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.isValid(1) returned true
+2018-04-09 17:49:46.421  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.getTransactionIsolation() returned 4
+2018-04-09 17:49:46.426  INFO 1116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-04-09 17:49:46.432  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@4acc5dff
+2018-04-09 17:49:46.439  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-04-09 17:49:46.458  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@33425811
+2018-04-09 17:49:46.458  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-04-09 17:49:46.510  INFO 1116 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-04-09 17:49:46.542  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 2. Connection opened
+2018-04-09 17:49:46.542  INFO 1116 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-04-09 17:49:46.543  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 2. Connection.new Connection returned 
+2018-04-09 17:49:46.544  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 2. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.545  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 2. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.556  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 3. Connection opened
+2018-04-09 17:49:46.556  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 3. Connection.new Connection returned 
+2018-04-09 17:49:46.557  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 3. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.558  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 3. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.568  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 4. Connection opened
+2018-04-09 17:49:46.568  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 4. Connection.new Connection returned 
+2018-04-09 17:49:46.569  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 4. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.570  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 4. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.579  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 5. Connection opened
+2018-04-09 17:49:46.579  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 5. Connection.new Connection returned 
+2018-04-09 17:49:46.580  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 5. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.581  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 5. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.588  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 6. Connection opened
+2018-04-09 17:49:46.589  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 6. Connection.new Connection returned 
+2018-04-09 17:49:46.589  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 6. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.590  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 6. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.597  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 7. Connection opened
+2018-04-09 17:49:46.598  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 7. Connection.new Connection returned 
+2018-04-09 17:49:46.599  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 7. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.600  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 7. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.608  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 8. Connection opened
+2018-04-09 17:49:46.608  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 8. Connection.new Connection returned 
+2018-04-09 17:49:46.609  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 8. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.611  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 8. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.619  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 9. Connection opened
+2018-04-09 17:49:46.619  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 9. Connection.new Connection returned 
+2018-04-09 17:49:46.620  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 9. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.621  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 9. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.629  INFO 1116 --- [HikariPool-1 connection adder] jdbc.connection                          : 10. Connection opened
+2018-04-09 17:49:46.629  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 10. Connection.new Connection returned 
+2018-04-09 17:49:46.630  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 10. Connection.setReadOnly(false) returned 
+2018-04-09 17:49:46.631  INFO 1116 --- [HikariPool-1 connection adder] jdbc.audit                               : 10. Connection.setAutoCommit(true) returned 
+2018-04-09 17:49:46.719  INFO 1116 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.16.Final}
+2018-04-09 17:49:46.722  INFO 1116 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-04-09 17:49:46.963  INFO 1116 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-04-09 17:49:47.146  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.isValid(5) returned true
+2018-04-09 17:49:47.147  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@72b6832e
+2018-04-09 17:49:47.161  INFO 1116 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-04-09 17:49:47.233  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-04-09 17:49:48.200  INFO 1116 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-04-09 17:49:48.388  INFO 1116 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-04-09 17:49:48.499  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.isValid(5) returned true
+2018-04-09 17:49:48.499  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1216eb3f
+2018-04-09 17:49:48.500  INFO 1116 --- [main] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-04-09 17:49:49.057  INFO 1116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-09 17:49:49.578  INFO 1116 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2141a12: startup date [Mon Apr 09 17:49:42 CST 2018]; root of context hierarchy
+2018-04-09 17:49:49.641  WARN 1116 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-09 17:49:49.728  INFO 1116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reader/queryReader],methods=[GET]}" onto public com.example.demo.entity.Reader com.example.demo.controller.ReaderController.reader(java.lang.String)
+2018-04-09 17:49:49.731  INFO 1116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/reader/addReader],methods=[GET]}" onto public boolean com.example.demo.controller.ReaderController.addReader(com.example.demo.entity.Reader)
+2018-04-09 17:49:49.736  INFO 1116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-09 17:49:49.737  INFO 1116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-09 17:49:49.792  INFO 1116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-09 17:49:49.793  INFO 1116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-09 17:49:50.399  INFO 1116 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-09 17:49:50.402  INFO 1116 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-09 17:49:50.411  INFO 1116 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-09 17:49:50.521  INFO 1116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2018-04-09 17:49:50.526  INFO 1116 --- [main] c.e.d.SpringbootactionFirst3Application  : Started SpringbootactionFirst3Application in 8.37 seconds (JVM running for 10.136)
+2018-04-09 17:50:02.182  INFO 1116 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-09 17:50:02.183  INFO 1116 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-09 17:50:02.222  INFO 1116 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2018-04-09 17:50:02.387  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.isValid(5) returned true
+2018-04-09 17:50:02.388  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.setReadOnly(true) returned 
+2018-04-09 17:50:02.389  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.getAutoCommit() returned true
+2018-04-09 17:50:02.390  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.setAutoCommit(false) returned 
+2018-04-09 17:50:02.466  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. PreparedStatement.new PreparedStatement returned 
+2018-04-09 17:50:02.466  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.prepareStatement(select reader0_.username as username1_1_0_, reader0_.fullname as fullname2_1_0_, reader0_.password as password3_1_0_ from reader reader0_ where reader0_.username=?) returned net.sf.log4jdbc.PreparedStatementSpy@d52f4c4
+2018-04-09 17:50:02.473  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. PreparedStatement.setString(1, "2") returned 
+2018-04-09 17:50:02.476  INFO 1116 --- [http-nio-9000-exec-1] jdbc.sqlonly                             : select reader0_.username as username1_1_0_, reader0_.fullname as fullname2_1_0_, reader0_.password 
+as password3_1_0_ from reader reader0_ where reader0_.username='2' 
+
+2018-04-09 17:50:02.481  INFO 1116 --- [http-nio-9000-exec-1] jdbc.sqltiming                           : select reader0_.username as username1_1_0_, reader0_.fullname as fullname2_1_0_, reader0_.password 
+as password3_1_0_ from reader reader0_ where reader0_.username='2' 
+ {executed in 5 msec}
+2018-04-09 17:50:02.485  INFO 1116 --- [http-nio-9000-exec-1] jdbc.resultset                           : 1. ResultSet.new ResultSet returned 
+2018-04-09 17:50:02.485  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.ResultSetSpy@4694f883
+2018-04-09 17:50:02.494  INFO 1116 --- [http-nio-9000-exec-1] jdbc.resultset                           : 1. ResultSet.next() returned true
+2018-04-09 17:50:02.506  INFO 1116 --- [http-nio-9000-exec-1] jdbc.resultset                           : 1. ResultSet.getString(fullname2_1_0_) returned sfg
+2018-04-09 17:50:02.506  INFO 1116 --- [http-nio-9000-exec-1] jdbc.resultset                           : 1. ResultSet.wasNull() returned false
+2018-04-09 17:50:02.506  INFO 1116 --- [http-nio-9000-exec-1] jdbc.resultset                           : 1. ResultSet.getString(password3_1_0_) returned sfg
+2018-04-09 17:50:02.506  INFO 1116 --- [http-nio-9000-exec-1] jdbc.resultset                           : 1. ResultSet.wasNull() returned false
+2018-04-09 17:50:02.510  INFO 1116 --- [http-nio-9000-exec-1] jdbc.resultset                           : 1. ResultSet.next() returned false
+2018-04-09 17:50:02.516  INFO 1116 --- [http-nio-9000-exec-1] jdbc.resultset                           : 1. ResultSet.close() returned 
+2018-04-09 17:50:02.517  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. PreparedStatement.getMaxRows() returned 0
+2018-04-09 17:50:02.517  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. PreparedStatement.getQueryTimeout() returned 0
+2018-04-09 17:50:02.517  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. PreparedStatement.close() returned 
+2018-04-09 17:50:02.519  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.commit() returned 
+2018-04-09 17:50:02.520  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.setAutoCommit(true) returned 
+2018-04-09 17:50:02.521  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.isReadOnly() returned true
+2018-04-09 17:50:02.521  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.setReadOnly(false) returned 
+2018-04-09 17:50:02.637  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-04-09 17:50:02.638  INFO 1116 --- [http-nio-9000-exec-1] jdbc.audit                               : 1. Connection.clearWarnings() returned 
+2018-04-09 17:51:10.962  INFO 1116 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-04-09 17:51:10.963  INFO 1116 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2141a12: startup date [Mon Apr 09 17:49:42 CST 2018]; root of context hierarchy
+2018-04-09 17:51:10.967  INFO 1116 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-09 17:51:10.968  INFO 1116 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-04-09 17:51:10.970  INFO 1116 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-04-09 17:51:10.974  INFO 1116 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-04-09 17:51:10.981  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 1. Connection closed
+2018-04-09 17:51:10.982  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 1. Connection.close() returned 
+2018-04-09 17:51:10.984  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 2. Connection closed
+2018-04-09 17:51:10.984  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 2. Connection.close() returned 
+2018-04-09 17:51:10.985  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 3. Connection closed
+2018-04-09 17:51:10.986  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 3. Connection.close() returned 
+2018-04-09 17:51:10.987  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 4. Connection closed
+2018-04-09 17:51:10.987  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 4. Connection.close() returned 
+2018-04-09 17:51:10.989  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 5. Connection closed
+2018-04-09 17:51:10.989  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 5. Connection.close() returned 
+2018-04-09 17:51:10.991  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 6. Connection closed
+2018-04-09 17:51:10.992  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 6. Connection.close() returned 
+2018-04-09 17:51:10.993  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 7. Connection closed
+2018-04-09 17:51:10.994  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 7. Connection.close() returned 
+2018-04-09 17:51:10.996  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 8. Connection closed
+2018-04-09 17:51:10.997  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 8. Connection.close() returned 
+2018-04-09 17:51:10.999  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 9. Connection closed
+2018-04-09 17:51:10.999  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 9. Connection.close() returned 
+2018-04-09 17:51:11.001  INFO 1116 --- [HikariPool-1 connection closer] jdbc.connection                          : 10. Connection closed
+2018-04-09 17:51:11.001  INFO 1116 --- [HikariPool-1 connection closer] jdbc.audit                               : 10. Connection.close() returned 
+2018-04-09 17:51:11.002  INFO 1116 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-04-09 17:51:18.178  INFO 4456 --- [main] c.e.d.SpringbootactionFirst3Application  : Starting SpringbootactionFirst3Application on LAPTOP-0TUN6MS3 with PID 4456 (G:\eclipse\wprkspace\springbootaction-first-3\target\classes started by lenovo in G:\eclipse\wprkspace\springbootaction-first-3)
+2018-04-09 17:51:18.187 DEBUG 4456 --- [main] c.e.d.SpringbootactionFirst3Application  : Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-09 17:51:18.191  INFO 4456 --- [main] c.e.d.SpringbootactionFirst3Application  : No active profile set, falling back to default profiles: default
+2018-04-09 17:51:24.246  WARN 4456 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-09 17:51:25.002  INFO 4456 --- [main] c.e.d.SpringbootactionFirst3Application  : Started SpringbootactionFirst3Application in 7.451 seconds (JVM running for 9.003)
+2018-04-09 17:51:37.383  INFO 4456 --- [http-nio-9000-exec-1] jdbc.sqlonly                             : select reader0_.username as username1_1_0_, reader0_.fullname as fullname2_1_0_, reader0_.password 
+as password3_1_0_ from reader reader0_ where reader0_.username='2' 
+
+2018-04-09 17:51:37.420 DEBUG 4456 --- [http-nio-9000-exec-1] c.e.demo.controller.ReaderController     : ~~~~~~~~vgghh
+2018-04-09 17:52:11.765  INFO 1800 --- [main] c.e.d.SpringbootactionFirst3Application  : Starting SpringbootactionFirst3Application on LAPTOP-0TUN6MS3 with PID 1800 (G:\eclipse\wprkspace\springbootaction-first-3\target\classes started by lenovo in G:\eclipse\wprkspace\springbootaction-first-3)
+2018-04-09 17:52:11.774 DEBUG 1800 --- [main] c.e.d.SpringbootactionFirst3Application  : Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-04-09 17:52:11.776  INFO 1800 --- [main] c.e.d.SpringbootactionFirst3Application  : No active profile set, falling back to default profiles: default
+2018-04-09 17:52:17.633  WARN 1800 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-04-09 17:52:18.430  INFO 1800 --- [main] c.e.d.SpringbootactionFirst3Application  : Started SpringbootactionFirst3Application in 7.269 seconds (JVM running for 9.605)
+2018-04-09 17:52:42.578  INFO 1800 --- [http-nio-9000-exec-2] jdbc.sqlonly                             : select reader0_.username as username1_1_0_, reader0_.fullname as fullname2_1_0_, reader0_.password 
+as password3_1_0_ from reader reader0_ where reader0_.username='2' 
+
+2018-04-09 17:52:42.614 DEBUG 1800 --- [http-nio-9000-exec-2] c.e.demo.controller.ReaderController     : ~~~~~~~~vgghh
+2018-04-09 17:52:46.236  INFO 1800 --- [http-nio-9000-exec-3] jdbc.sqlonly                             : select reader0_.username as username1_1_0_, reader0_.fullname as fullname2_1_0_, reader0_.password 
+as password3_1_0_ from reader reader0_ where reader0_.username='2' 
+
+2018-04-09 17:52:46.241 DEBUG 1800 --- [http-nio-9000-exec-3] c.e.demo.controller.ReaderController     : ~~~~~~~~vgghh
+2018-04-09 17:52:57.531  INFO 1800 --- [http-nio-9000-exec-4] jdbc.sqlonly                             : select reader0_.username as username1_1_0_, reader0_.fullname as fullname2_1_0_, reader0_.password 
+as password3_1_0_ from reader reader0_ where reader0_.username='2' 
+
+2018-04-09 17:52:57.536 DEBUG 1800 --- [http-nio-9000-exec-4] c.e.demo.controller.ReaderController     : ~~~~~~~~vgghh
+2018-04-09 17:54:33.740  INFO 1800 --- [http-nio-9000-exec-7] jdbc.sqlonly                             : select reader0_.username as username1_1_0_, reader0_.fullname as fullname2_1_0_, reader0_.password 
+as password3_1_0_ from reader reader0_ where reader0_.username='2' 
+
+2018-04-09 17:54:33.744 DEBUG 1800 --- [http-nio-9000-exec-7] c.e.demo.controller.ReaderController     : ~~~~~~~~vgghh
